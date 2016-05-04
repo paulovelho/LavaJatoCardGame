@@ -10,3 +10,27 @@ header {
 		padding-bottom: 200px;
 	}
 }
+
+footer {
+	padding-bottom: 10px;
+}
+footer a.zebras img{
+	height: 70px;
+	margin-top: -15px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+	header {
+		background-image: url('../images/back-pattern.jpg');
+		background-repeat: repeat;
+		background-size: initial;
+	}
+	header img {
+		width: 100%;
+	}
+	footer a.zebras img{
+		margin-top: 10px;
+	}
+}
+
