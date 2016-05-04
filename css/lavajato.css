@@ -15,6 +15,14 @@ header, section#contact {
 	text-align: left;
 }
 
+.team-member img {
+	border: 0;
+}
+.team-member a {
+	color: #23527c;
+}
+
+
 footer {
 	padding-bottom: 10px;
 }

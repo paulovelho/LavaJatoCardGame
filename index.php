@@ -45,6 +45,8 @@
 
     <?php include("sections/cronologia.php"); ?>
 
+    <?php include("sections/creditos.php"); ?>
+
     <?php include("sections/contato.php"); ?>
 
     <?php include("sections/footer.php"); ?>
