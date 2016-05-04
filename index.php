@@ -36,40 +36,18 @@
 
 <body id="page-top" class="index lavajato">
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">
-                    <img src="images/logo.png" alt="Lava Jato Card Game" title="Lava Jato Card Game"/>
-                </div>
-                <div class="intro-heading">Em breve...</div>
-            </div>
-        </div>
-    </header>
+    <?php include("sections/header.php"); ?>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Paulo Velho 2016</span>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://twitter.com/paulovelho" class="zebras">
-                        <img src="images/paulovelho.png" title="Paulo Velho" alt="Paulo Velho"/>
-                    </a>
-                </div>
-                <!--div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div-->
-            </div>
-        </div>
-    </footer>
+    <?php include("sections/about.php"); ?>
+
+    <?php include("sections/gallery.php"); ?>
+    <?php include("sections/gallery-modals.php"); ?>
+
+    <?php include("sections/cronologia.php"); ?>
+
+    <?php include("sections/contato.php"); ?>
+
+    <?php include("sections/footer.php"); ?>
 
 </body>
 
