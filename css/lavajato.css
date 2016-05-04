@@ -1,0 +1,12 @@
+header {
+	background-image: url('../images/back-pattern.jpg');
+	background-repeat: repeat;
+	background-size: initial;
+}
+
+@media (min-width: 768px) {
+	header .intro-text {
+		padding-top: 100px;
+		padding-bottom: 200px;
+	}
+}
