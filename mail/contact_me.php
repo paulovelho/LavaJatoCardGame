@@ -1,26 +1,53 @@
 <?php
-// Check for empty fields
-if(empty($_POST['name'])      ||
-   empty($_POST['email'])     ||
-   empty($_POST['phone'])     ||
-   empty($_POST['message'])   ||
-   !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
-   {
-   echo "No arguments Provided!";
-   return false;
-   }
-   
-$name = strip_tags(htmlspecialchars($_POST['name']));
-$email_address = strip_tags(htmlspecialchars($_POST['email']));
-$phone = strip_tags(htmlspecialchars($_POST['phone']));
-$message = strip_tags(htmlspecialchars($_POST['message']));
-   
-// Create the email and send the message
-$to = 'yourname@yourdomain.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-$email_subject = "Website Contact Form:  $name";
-$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-$headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-$headers .= "Reply-To: $email_address";   
-mail($to,$email_subject,$email_body,$headers);
-return true;         
+  header('Content-Type: application/json');
+  // Check for empty fields
+  if(empty($_POST['name']) ||
+    empty($_POST['email']) ||
+    empty($_POST['assunto']) ||
+    empty($_POST['message']) ||
+    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)) {
+    $response = array('success' => false, 'message' => "Erro no envio da mensagem!");
+    json_encode($response);
+    return false;
+  }
+
+  $name = strip_tags(htmlspecialchars($_POST['name']));
+  $email = strip_tags(htmlspecialchars($_POST['email']));
+  $subject = strip_tags(htmlspecialchars($_POST['assunto']));
+  $message = strip_tags(htmlspecialchars($_POST['message']));
+
+  $wsContato = "http://contato.paulovelho.com.br/server.php";
+  $source = 0;
+  $secret = "secret_key";
+
+  $data = @$_POST;
+  if(!empty($data)){
+
+    $email_message = "FROM: [".$name." <".$email.">] :  \n\n".$message;
+    $postData = array(
+      'source' => $source,
+      'to' => 'lavajato@paulovelho.com',
+      'replyto' => "'".$name."' <".$email.">",
+      'subject' => $subject,
+      'message' => $email_message,
+      'priority' => 70,
+      'auth' => $secret 
+    );
+    $options = array(
+      'http' => array(
+      'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+      'method'  => 'POST',
+      'content' => http_build_query($postData),
+      ),
+    );
+    $context  = stream_context_create($options);
+    $wsContato = $wsContato."/server.php?addMail";
+    $result = file_get_contents($wsContato, false, $context);
+    // p_r($result);
+
+    $response = array('success' => true, 'message' => "Delação premiada arquivada com sucesso!");
+    json_encode($response);
+  }
+  return true;         
+
 ?>

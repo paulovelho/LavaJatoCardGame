@@ -35,7 +35,8 @@
 </head>
 
 <body id="page-top" class="index lavajato">
-
+    <?php include("sections/analytics.php") ?>
+    
     <?php include("sections/header.php"); ?>
 
     <?php include("sections/about.php"); ?>
