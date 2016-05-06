@@ -16,24 +16,24 @@
                     O fictício governo está acuado, acusado de diversos casos de corrupção. A fictícia presidenta perde aliados políticos com a mesma freqüência que sua população perde empregos.
                 </p>
                 <p>
-                    Um juiz comanda uma operação de limpeza política cujo principal objetivo é tirar a presidenta do poder. Ambos precisam de aliados, mesmo que isso envolva se envolver com políticos criminosos.
+                    Um fictício juiz comanda uma operação de limpeza política cujo principal objetivo é tirar a presidenta do poder. Ambos precisam de aliados, mesmo que isso envolva se envolver com políticos criminosos.
                 </p>
                 <br/>
                 <p>
                     O jogo da operação Lava Jato coloca você no meio dessa gostosa bagunça política. 
                 </p>
                 <p>
-                    Assuma o papel do juiz, da presidenta ou de um político que pode ser do partido da situação ou da oposição. Responda pelos seus crimes ou coloque um laranja para receber a culpa por eles. Fuja do japonês que quer te prender. Mude seu lado político para obter diferentes benefícios: Finja ser um Petralha para ter votos de confiança do governo ou finja ser um coxinha para escapar das investigações policiais.
+                    Assuma o papel do juiz, da presidenta ou de um político que pode ser do partido da situação ou da oposição. Responda pelos seus crimes ou coloque um laranja para receber a culpa por eles. Fuja do japonês que quer te prender. Mude seu lado político para obter diferentes benefícios: Finja ser um Petralha para ter votos de confiança do governo ou finja ser um Coxinha para escapar das investigações policiais.
                 </p>
                 <p>
                     E principalmente, lute por seu objetivo: derrubar a presidenta ou mantê-la no poder.
                 </p>
                 <p>
-                    Suas ações que vão guiar este divertido jogo, pra ser jogado com toda a família e amigos. (se você ainda possuir amigos depois de jogar, lógico)
+                    Suas ações que vão guiar este divertido jogo, pra ser jogado com toda a família e amigos. (se você ainda possuir amigos depois de jogar, lógico).
                 </p>
                 <br/>
-                <p>
-                    (Esta é uma obra de ficção. Qualquer semelhança com a realidade é pura coincidência!)
+                <p class="text-muted">
+                    Esta é uma obra de ficção. Qualquer semelhança com a realidade é pura coincidência!
                 </p>
             </div>
             <div class="col-sm-4">
