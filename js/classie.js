@@ -30,10 +30,12 @@ if ( 'classList' in document.documentElement ) {
     return elem.classList.contains( c );
   };
   addClass = function( elem, c ) {
-    elem.classList.add( c );
+    if( elem )
+      elem.classList.add( c );
   };
   removeClass = function( elem, c ) {
-    elem.classList.remove( c );
+    if( elem )
+      elem.classList.remove( c );
   };
 }
 else {
@@ -46,7 +48,8 @@ else {
     }
   };
   removeClass = function( elem, c ) {
-    elem.className = elem.className.replace( classReg( c ), ' ' );
+    if( elem )
+      elem.className = elem.className.replace( classReg( c ), ' ' );
   };
 }
 
