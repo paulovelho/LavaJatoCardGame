@@ -29,7 +29,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="images/gallery/carta_juiz-thumb.png" class="img-responsive" alt="">
+                    <img src="images/gallery/carta_juiz-thumb.jpg" class="img-responsive" alt="">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Qualidade artística</h4>
