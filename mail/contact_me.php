@@ -3,11 +3,10 @@
   // Check for empty fields
   if(empty($_POST['name']) ||
     empty($_POST['email']) ||
-    empty($_POST['assunto']) ||
     empty($_POST['message']) ||
     !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)) {
     $response = array('success' => false, 'message' => "Erro no envio da mensagem!");
-    json_encode($response);
+    echo json_encode($response);
     return false;
   }
 
@@ -18,7 +17,7 @@
 
   $wsContato = "http://contato.paulovelho.com.br/server.php";
   $source = 0;
-  $secret = "secret_key";
+  $secret = "secret-key";
 
   $data = @$_POST;
   if(!empty($data)){
@@ -46,8 +45,10 @@
     // p_r($result);
 
     $response = array('success' => true, 'message' => "Delação premiada arquivada com sucesso!");
-    json_encode($response);
+    echo json_encode($response);
+  } else {
+    $response = array('success' => false, 'message' => "Epa! Deu merda no envio da mensagem! A Polícia Federal já deve estar cuidando do assunto...");
+    echo json_encode($response);
   }
-  return true;         
-
+  return true;
 ?>
