@@ -2,10 +2,8 @@ $(function() {
 
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
         preventSubmit: true,
-        submitError: function($form, event, errors) {
-            // additional error messages or events
-        },
         submitSuccess: function($form, event) {
+            console.info("submitting...");
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
@@ -29,7 +27,7 @@ $(function() {
             }
 
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "mail/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
@@ -39,6 +37,7 @@ $(function() {
                 },
                 cache: false,
                 success: function( data ) {
+                    console.info(data);
                     if(data.success) {
                         // Success message
                         $('#success').html("<div class='alert alert-success'>");
