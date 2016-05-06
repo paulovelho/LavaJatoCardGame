@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <div class="team-member">
                     <h4>Produção</h4>
                     <br/>
@@ -19,18 +19,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="team-member">
-                    <h4>Arte</h4>
-                    <br/>
-                    <img src="images/chev.png" class="img-responsive img-circle" alt="">
-                    <h5>Roberto Chev</h5>
-                    <p class="text-muted">
-                        <a href="http://www.ch3v.com.br">www.ch3v.com.br</a><br/>
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <div class="team-member">
                     <h4>Tecnologia e Marketing</h4>
                     <br/>
@@ -42,7 +31,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <div class="team-member">
                     <h4>Apoio</h4>
                     <br/><br/>

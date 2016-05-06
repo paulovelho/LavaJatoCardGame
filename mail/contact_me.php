@@ -23,7 +23,7 @@
   $data = @$_POST;
   if(!empty($data)){
 
-    $email_message = "FROM: [".$name." <".$email.">] :  \n\n".$message;
+    $email_message = "FROM: [".$name." &lt;".$email."&gt;] :  \n\n".$message;
     $postData = array(
       'source' => $source,
       'to' => 'lavajato@paulovelho.com',
