@@ -35,7 +35,7 @@
                 <div class="team-member">
                     <h4>Fabricação</h4>
                     <br/>
-                    <img src="images/copag.png" class="img-responsive img-circle" alt="">
+                    <img src="images/copag.png" class="img-responsive img-circle copag" alt="">
                     <h5>Copag</h5>
                     <p class="text-muted">
                         Este jogo conta com a qualidade de uma empresa há mais de 100 anos produzindo cartas<br/>

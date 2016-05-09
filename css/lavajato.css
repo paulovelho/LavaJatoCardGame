@@ -21,7 +21,9 @@ header, section#contact {
 .team-member a {
 	color: #23527c;
 }
-
+.team-member img.copag {
+	height: 150px;
+}
 
 footer {
 	padding-bottom: 10px;
