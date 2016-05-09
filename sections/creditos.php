@@ -38,12 +38,12 @@
                     <h5>Fabricação:</h5>
                     <p class="text-muted">
                         <img src="images/copag.png" alt="Copag" title="Copag"/><br/>
-                        Baralhos Copag - <a href="http://copag.com.br/">www.copag.com.br</a><br/>
+                        Baralhos Copag - <a href="http://copag.com.br/" target="_blank">www.copag.com.br</a><br/>
                         Este jogo conta com a qualidade de uma empresa de mais de 100 anos produzindo cartas
                     </p>
                     <h5>Apoio:</h5>
                     <p class="text-muted">
-                        <a href="https://twitter.com/ulissesmattos">Ulisses Mattos</a>,<br/>
+                        <a href="https://twitter.com/ulissesmattos" target="_blank">Ulisses Mattos</a>, ???<br/>
                     </p>
                     <h5>Agradecimentos:</h5>
                     <p class="text-muted">
