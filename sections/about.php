@@ -48,9 +48,7 @@
                 </p>
             </div>
             <div class="col-sm-4">
-                <a href="<?=$catarse?>">
-                COLABORE!
-                </a>
+                <iframe frameborder="0" height="314px" src="https://www.catarse.me/pt/projects/29968/embed" width="300px" scrolling="no"></iframe>
             </div>
         </div>
     </div>
