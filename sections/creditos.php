@@ -35,18 +35,18 @@
                 <div class="team-member">
                     <h4>Apoio</h4>
                     <br/>
+                    <h5>Fabricação:</h5>
                     <p class="text-muted">
-                        <b>Fabricação:</b><br/>
-                        <img src="images/copag.png" alt="Copag" title="Copag"/>
+                        <img src="images/copag.png" alt="Copag" title="Copag"/><br/>
                         Baralhos Copag - <a href="http://copag.com.br/">www.copag.com.br</a><br/>
                         Este jogo conta com a qualidade de uma empresa de mais de 100 anos produzindo cartas
                     </p>
+                    <h5>Apoio:</h5>
                     <p class="text-muted">
-                        <b>Apoio:</b><br/>
                         <a href="https://twitter.com/ulissesmattos">Ulisses Mattos</a>,<br/>
                     </p>
+                    <h5>Agradecimentos:</h5>
                     <p class="text-muted">
-                        <b>Agradecimentos:</b><br/>
                         Luiz Carlos Vieira, Barba, Walter Mourão, Fernando Gherardini<br/>
                         A todos os amigos que participaram dos playtests e enviaram preciosos feedbacks<br/>
                     </p>
