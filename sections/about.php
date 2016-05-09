@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Lava Jato</h2>
-                <h3 class="section-subheading text-muted">O card game da operação que travou o país.</h3>
+                <h3 class="section-subheading text-muted">Um card game de intrigas políticas.</h3>
             </div>
         </div>
         <div class="row text-center">
@@ -32,12 +32,25 @@
                     Suas ações que vão guiar este divertido jogo, pra ser jogado com toda a família e amigos. (se você ainda possuir amigos depois de jogar, lógico).
                 </p>
                 <br/>
+                <p>
+                    O jogo é produzido com qualidade Copag e uma cuidadosa direção artística. As regras são simples e possibilitam diferentes estratégias.
+                </p>
+                <ul>
+                    <li>De 06 a 10 jogadores</li>
+                    <li>Partidas de 30 a 50 minutos</li>
+                    <li>Para todas as idades</li>
+                    <li>Baralho contendo 100 cartas + 02 marcadores de personagem</li>
+                    <li>Qualidade Copag na produção</li>
+                </ul>
+                <br/>
                 <p class="text-muted">
                     Esta é uma obra de ficção. Qualquer semelhança com a realidade é pura coincidência!
                 </p>
             </div>
             <div class="col-sm-4">
+                <a href="<?=$catarse?>">
                 COLABORE!
+                </a>
             </div>
         </div>
     </div>

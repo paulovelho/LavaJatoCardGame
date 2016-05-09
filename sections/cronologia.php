@@ -42,11 +42,13 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
+                        <a href="<?=$catarse?>">
                         <div class="timeline-image">
                             <h4>Encomende
                             <br>já
                             <br>o seu!</h4>
                         </div>
+                        </a>
                     </li>
                 </ul>
             </div>

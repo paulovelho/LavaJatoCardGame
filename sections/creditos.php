@@ -34,15 +34,21 @@
             <div class="col-sm-4">
                 <div class="team-member">
                     <h4>Apoio</h4>
-                    <br/><br/>
+                    <br/>
                     <p class="text-muted">
-                        Agradecimento aos amigos:<br/>
-                        Luiz Carlos Vieira, Barba, Walter Mourão, Fernando Gherardini<br/>
+                        <b>Fabricação:</b><br/>
+                        <img src="images/copag.png" alt="Copag" title="Copag"/>
+                        Baralhos Copag - <a href="http://copag.com.br/">www.copag.com.br</a><br/>
+                        Este jogo conta com a qualidade de uma empresa de mais de 100 anos produzindo cartas
                     </p>
                     <p class="text-muted">
                         <b>Apoio:</b><br/>
-                        Baralhos Copag - <a href="http://copag.com.br/">www.copag.com.br</a>,<br/>
                         <a href="https://twitter.com/ulissesmattos">Ulisses Mattos</a>,<br/>
+                    </p>
+                    <p class="text-muted">
+                        <b>Agradecimentos:</b><br/>
+                        Luiz Carlos Vieira, Barba, Walter Mourão, Fernando Gherardini<br/>
+                        A todos os amigos que participaram dos playtests e enviaram preciosos feedbacks<br/>
                     </p>
                 </div>
             </div>

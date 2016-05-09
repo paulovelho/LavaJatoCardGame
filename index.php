@@ -47,6 +47,10 @@
 </head>
 
 <body id="page-top" class="index lavajato">
+<?php
+    $catarse = "https://www.catarse.me/lavajato";
+?>
+
     <?php include("sections/analytics.php") ?>
     
     <?php include("sections/header.php"); ?>
