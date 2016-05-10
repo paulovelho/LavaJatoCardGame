@@ -40,7 +40,6 @@
                     <li>Partidas de 30 a 50 minutos</li>
                     <li>Para todas as idades</li>
                     <li>Baralho contendo 100 cartas + 02 marcadores de personagem</li>
-                    <li>Qualidade Copag na produção</li>
                 </ul>
                 <br/>
                 <p class="text-muted">
@@ -48,7 +47,7 @@
                 </p>
             </div>
             <div class="col-sm-4">
-                <iframe frameborder="0" height="314px" src="https://www.catarse.me/pt/projects/29968/embed" width="300px" scrolling="no"></iframe>
+                <iframe frameborder="0" height="370px" src="https://www.catarse.me/pt/projects/29968/embed" width="300px" scrolling="no"></iframe>
             </div>
         </div>
     </div>

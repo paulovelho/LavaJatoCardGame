@@ -33,7 +33,7 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>09 de maio</h4>
+                                <h4>11 de maio</h4>
                                 <h4 class="subheading">Crowdfunding aberto</h4>
                             </div>
                             <div class="timeline-body">
