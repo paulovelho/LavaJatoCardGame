@@ -19,7 +19,7 @@
                 </a>
                 <div class="portfolio-caption">
                     <h4>Identidade visual</h4>
-                    <p class="text-muted">Para agradar coxinhas e petralhas</p>
+                    <p class="text-muted">Moderno e cômico. Elegante e descontraído.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
