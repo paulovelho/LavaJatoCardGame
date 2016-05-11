@@ -48,7 +48,7 @@
                     <h4>Apoio</h4>
                     <br/><br/>
                     <p class="text-muted">
-                        <!--a href="https://twitter.com/ulissesmattos" target="_blank">Ulisses Mattos</a-->, ???<br/>
+                        <a href="https://twitter.com/bethmoreno" target="_blank">Beth Moreno</a>
                     </p>
                     <h5>Agradecimentos:</h5>
                     <p class="text-muted">

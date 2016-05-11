@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Lava Jato</h2>
+                <h2 class="section-heading">Operação Lava Jato</h2>
                 <h3 class="section-subheading text-muted">Um card game de intrigas políticas.</h3>
             </div>
         </div>
@@ -40,6 +40,8 @@
                     <li>Partidas de 30 a 50 minutos</li>
                     <li>Para todas as idades</li>
                     <li>Baralho contendo 100 cartas + 02 marcadores de personagem</li>
+                    <li>Produção limitada!!!</li>
+                    <li><a href="<?=$catarse?>">Garanta já o seu!</a></li>
                 </ul>
                 <br/>
                 <p class="text-muted">
