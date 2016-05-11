@@ -31,9 +31,9 @@
 <meta property="og:title" content="Lava Jato Card Game"/>
 <meta property="og:description" content="Chegou o jogo de cartas da operação lava-jato!"/>
 <meta property="og:site_name" content="Lava Jato Card Game"/>
-<meta property="og:url" content="http://paulovelho.com.br/lavajatocardgame/dev"/>
-<meta property="og:image" content="http://paulovelho.com.br/lavajatocardgame/dev/images/og.png"/>
-<meta property="twitter:image" content="http://paulovelho.com.br/lavajatocardgame/dev/images/og.png"/>
+<meta property="og:url" content="http://paulovelho.com.br/lavajato"/>
+<meta property="og:image" content="http://paulovelho.com.br/lavajato/images/og.png"/>
+<meta property="twitter:image" content="http://paulovelho.com.br/lavajato/images/og.png"/>
 <meta property="twitter:card" content="summary"/>
 <meta property="twitter:site" content="@paulovelho"/>
 
