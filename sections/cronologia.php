@@ -41,6 +41,22 @@
                             </div>
                         </div>
                     </li>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="images/regras.png" alt="Regras">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Maio</h4>
+                                <h4 class="subheading">Regras</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">
+                                    Para ver o vídeo demo e as regras, <a href="regras.php">clique aqui</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
                     <li class="timeline-inverted">
                         <a href="<?=$catarse?>">
                         <div class="timeline-image">

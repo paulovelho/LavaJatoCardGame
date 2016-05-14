@@ -1,3 +1,11 @@
+.navbar {
+	position: absolute;
+}
+.navbar img {
+	height: 120px;
+	position: absolute;
+}
+
 header, section#contact {
 	background-image: url('../images/back-pattern.jpg');
 	background-repeat: repeat;
@@ -13,6 +21,23 @@ header, section#contact {
 
 #services p {
 	text-align: left;
+}
+#rules p {
+	text-align: left;
+	padding-left: 10px;
+}
+#rules a {
+	color: #aaa;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.sticky {
+	position: fixed;
+	top: 10px;
+}
+#rules p.quote {
+	padding-left: 50px;
 }
 
 .team-member img {
