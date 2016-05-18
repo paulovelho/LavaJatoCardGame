@@ -130,7 +130,10 @@
                 </p>
             </div>
             <div class="col-sm-4">
-                <div class="fixed-catarse">
+                <div class="fixed-catarse hidden-xs">
+                    <iframe frameborder="0" height="370px" src="https://www.catarse.me/pt/projects/29968/embed" width="300px" scrolling="no"></iframe>
+                </div>
+                <div class="visible-xs">
                     <iframe frameborder="0" height="370px" src="https://www.catarse.me/pt/projects/29968/embed" width="300px" scrolling="no"></iframe>
                 </div>
             </div>
