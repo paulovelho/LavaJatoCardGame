@@ -15,3 +15,15 @@
 <!-- Custom Theme JavaScript -->
 <script src="js/agency.js"></script>
 <script src="js/lavajato.js"></script>
+
+<script type="text/javascript">
+$( function() {
+<?php
+	$portfolio = intval($_GET["portfolio"]);
+	if( $portfolio > 0 ){
+		echo '$("a.portfolio-link")['.($portfolio-1).'].click();';
+	}
+?>
+} );
+</script>
+
