@@ -8,29 +8,33 @@
 <body id="page-top" class="index lavajato">
 <?php
     $catarse = "https://www.catarse.me/lavajato";
-    $page = "home";
+    $page = "faq";
 ?>
 
     <?php include("sections/analytics.php") ?>
     
     <?php include("sections/top-nav-bar.php"); ?>
-    <?php include("sections/header.php"); ?>
 
-    <?php include("sections/about.php"); ?>
-
-    <?php include("sections/gallery.php"); ?>
-    <?php include("sections/gallery-modals.php"); ?>
-
-    <?php include("sections/cronologia.php"); ?>
-
-    <?php include("sections/creditos.php"); ?>
-
-    <?php include("sections/contato.php"); ?>
+    <?php include("sections/faq.php"); ?>
 
     <?php include("sections/footer.php"); ?>
 
 </body>
 
 <?php include("sections/scripts.php") ?>
+
+<script type="text/javascript">
+$(function() {
+	// Set this variable with the height of your sidebar + header
+	var offsetPixels = 290; 
+	$(window).scroll(function() {
+		if ($(window).scrollTop() > offsetPixels) {
+			$( ".fixed-catarse" ).addClass("sticky");
+		} else {
+			$( ".fixed-catarse" ).removeClass("sticky");
+		}
+	});
+});
+</script>
 
 </html>

@@ -1,6 +1,5 @@
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
-
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 
@@ -13,13 +12,21 @@
 <script src="js/contact_me.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="js/agency.js"></script>
 <script src="js/lavajato.js"></script>
+<script src="js/agency.js"></script>
+
+<?php
+if($page == "home") {
+	?>
+	<script src="js/cbpAnimatedHeader.js"></script>
+	<?php
+}
+?>
 
 <script type="text/javascript">
 $( function() {
 <?php
-	$portfolio = intval($_GET["portfolio"]);
+	@$portfolio = intval($_GET["portfolio"]);
 	if( $portfolio > 0 ){
 		echo '$("a.portfolio-link")['.($portfolio-1).'].click();';
 	}
