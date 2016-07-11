@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-12">
 
                 <div class="row question">
                     <div class="col-12" onclick="toggleQuestion('p-serio')">
@@ -23,15 +23,12 @@
 
                 <div class="row question">
                     <div class="col-12" onclick="toggleQuestion('p-meta')">
-                        Não é uma meta muito ambiciosa?
+                        Como eu faço para comprar o jogo?
                     </div>
                 </div>
                 <div class="row answer">
                     <div class="col-12" id="p-meta">
-                        É.<br/>
-                        Porém, para manter um preço acessível e um produto de qualidade, foi necessária a produção de uma quantidade mínima de baralhos. Isso custa dinheiro.<br/>
-                        81% do valor da meta é para a produção do jogo, incluindo manual, caixinha e transporte (a produção é feita na fábrica da Copag, na Zona Franca de Manaus).<br/><br/>
-                        Então, sim. É uma meta alta. Mas deixa o jogo a um preço acessível e é uma meta totalmente plausível.
+                        O jogo possui produção limitada. Entre em contato para mais informações ou, se você é um revendedor, contacte-nos para ofertas especiais.
                     </div>
                 </div>
 
@@ -86,25 +83,16 @@
                 </div>
 
                 <div class="row question">
-                    <div class="col-12" onclick="toggleQuestion('p-gostei')">
-                        Gostei. Vou apoiar!
+                    <div class="col-12" onclick="toggleQuestion('p-meta')">
+                        Por que você não faz uma campanha de financiamento pra produzir o jogo em larga escala?
                     </div>
                 </div>
                 <div class="row answer">
-                    <div class="col-12" id="p-gostei">
-                        Boa!<br/>
-                        Se eu tivesse vendido um baralho para cada vez que eu ouvisse isso, provavelmente já teria atingido a meta.
+                    <div class="col-12" id="p-meta">
+                        Eu fiz. Fracassou. =(
                     </div>
                 </div>
 
-            </div>
-            <div class="col-sm-4">
-                <div class="fixed-catarse hidden-xs">
-                    <iframe frameborder="0" height="370px" src="https://www.catarse.me/pt/projects/29968/embed" width="300px" scrolling="no"></iframe>
-                </div>
-                <div class="visible-xs">
-                    <iframe frameborder="0" height="370px" src="https://www.catarse.me/pt/projects/29968/embed" width="300px" scrolling="no"></iframe>
-                </div>
             </div>
         </div>
     </div>

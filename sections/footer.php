@@ -11,8 +11,7 @@
             </div>
             <div class="col-md-4">
                 <ul class="list-inline quicklinks">
-                    <li><a href="<?=$catarse?>">Comprar!</a>
-                    </li>
+                    <li><!--a>Comprar!</a--></li>
                 </ul>
             </div>
         </div>

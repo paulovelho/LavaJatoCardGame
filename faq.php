@@ -23,18 +23,4 @@
 
 <?php include("sections/scripts.php") ?>
 
-<script type="text/javascript">
-$(function() {
-	// Set this variable with the height of your sidebar + header
-	var offsetPixels = 290; 
-	$(window).scroll(function() {
-		if ($(window).scrollTop() > offsetPixels) {
-			$( ".fixed-catarse" ).addClass("sticky");
-		} else {
-			$( ".fixed-catarse" ).removeClass("sticky");
-		}
-	});
-});
-</script>
-
 </html>
