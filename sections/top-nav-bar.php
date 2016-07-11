@@ -17,9 +17,6 @@
                 <li class="<?=($page=='faq' ? 'active' : '')?>">
                     <a class="page-scroll" href="faq.php">FAQ</a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="<?=$catarse?>">Comprar</a>
-                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
