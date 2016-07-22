@@ -58,13 +58,18 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <a href="<?=$catarse?>">
                         <div class="timeline-image">
-                            <h4>Encomende
-                            <br>já
-                            <br>o seu!</h4>
+                            <img class="img-circle img-responsive" src="images/fail.jpg" alt="Fail">
                         </div>
-                        </a>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Julho</h4>
+                                <h4 class="subheading">Crowdfunding fracassado</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Crowdfunding do catarse não atingiu a verba necessária... =(</p>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
