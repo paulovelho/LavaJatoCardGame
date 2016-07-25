@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-sm-8">
+            <div class="col-sm-12">
                 <h4 class="service-heading">O jogo</h4>
                 <p>
                     São tempos interessantes na fictícia ilha de Vera Cruz.
@@ -48,9 +48,9 @@
                     Esta é uma obra de ficção. Qualquer semelhança com a realidade é pura coincidência!
                 </p>
             </div>
-            <div class="col-sm-4">
-                <!--iframe frameborder="0" height="370px" src="https://www.catarse.me/pt/projects/29968/embed" width="300px" scrolling="no"></iframe-->
-            </div>
+            <!--div class="col-sm-4">
+                <iframe frameborder="0" height="370px" src="https://www.catarse.me/pt/projects/29968/embed" width="300px" scrolling="no"></iframe>
+            </div-->
         </div>
     </div>
 </section>

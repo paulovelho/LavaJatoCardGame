@@ -13,7 +13,7 @@
             </div>
         </div><br/>
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-12">
                 <p>
                     São tempos interessantes na fictícia Ilha de Vera Cruz.
                 </p>
@@ -129,14 +129,14 @@
                     <i>Alguns detalhes de regras ainda podem ser alterados de acordo com feedbacks e resultados de playtests</i>
                 </p>
             </div>
-            <div class="col-sm-4">
+            <!--div class="col-sm-4">
                 <div class="fixed-catarse hidden-xs">
                     <iframe frameborder="0" height="370px" src="https://www.catarse.me/pt/projects/29968/embed" width="300px" scrolling="no"></iframe>
                 </div>
                 <div class="visible-xs">
                     <iframe frameborder="0" height="370px" src="https://www.catarse.me/pt/projects/29968/embed" width="300px" scrolling="no"></iframe>
                 </div>
-            </div>
+            </div-->
         </div>
     </div>
 </section>
