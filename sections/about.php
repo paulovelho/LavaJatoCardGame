@@ -41,7 +41,6 @@
                     <li>Para todas as idades</li>
                     <li>Baralho contendo 100 cartas + 02 marcadores de personagem</li>
                     <li>Produção limitada!!!</li>
-                    <li><a href="<?=$catarse?>">Garanta já o seu!</a></li>
                 </ul>
                 <br/>
                 <p class="text-muted">
