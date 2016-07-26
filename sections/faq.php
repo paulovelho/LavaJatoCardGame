@@ -22,12 +22,12 @@
                 </div>
 
                 <div class="row question">
-                    <div class="col-12" onclick="toggleQuestion('p-meta')">
+                    <div class="col-12" onclick="toggleQuestion('p-comprar')">
                         Como eu faço para comprar o jogo?
                     </div>
                 </div>
                 <div class="row answer">
-                    <div class="col-12" id="p-meta">
+                    <div class="col-12" id="p-comprar">
                         O jogo possui produção limitada. Entre em contato para mais informações ou, se você é um revendedor, contacte-nos para ofertas especiais.
                     </div>
                 </div>
@@ -83,12 +83,12 @@
                 </div>
 
                 <div class="row question">
-                    <div class="col-12" onclick="toggleQuestion('p-meta')">
+                    <div class="col-12" onclick="toggleQuestion('p-campanha')">
                         Por que você não faz uma campanha de financiamento pra produzir o jogo em larga escala?
                     </div>
                 </div>
                 <div class="row answer">
-                    <div class="col-12" id="p-meta">
+                    <div class="col-12" id="p-campanha">
                         Eu fiz. Fracassou. =(
                     </div>
                 </div>
